@@ -429,6 +429,7 @@ def choose_email(EMAIL_CHOSSE):
         return mail
     # 如果EMAIL_CHOSSE不等于1、2、3、4，则打印出提示信息
     else:
+        
         print('哥们，把你的邮箱接口加上, ok？')
         return None
 def get_emailcode(EMAIL_CHOSSE, mail, max_retries=10, delay=1):
